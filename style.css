@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+    background: url(images/ets.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+    min-height: 100vh;
+    animation: movimiento 20s infinite linear alternate;
+
+}
+
+@keyframes movimiento{
+    from{
+        background-position: top right;
+    } to{
+        background-position: bottom top;
+    }
+}
+
+header{
+    background: black;
+    padding: 30px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+main{
+    width: 50%;
+    height: 320px;
+    margin: auto;
+    padding: 20px;
+   
+    text-align: center;
+    text-decoration: none;
+}
+
+.logo{
+    margin: -20px;
+    margin-left: 2px;
+    float: left;
+    padding: 0;
+   
+}
+
+.logo:hover{
+}
+
+.boton-jugar{
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #1776e2;
+    border-radius: 6px;
+    border: 3px solid #01030f;
+    margin-bottom: 15px;
+    margin-top: 10%;
+}
+.boton-jugar:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+
+footer{
+    margin: 0%;
+    background: black;
+    padding: 0.5%;
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    height: 2.5rem;
+}
+
+.linkedin{
+
+    max-width: 1.3%;
+    margin-left: 48.5%;
+}
+
+.linkedin:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+
+.github{
+    max-width: 2%;
+    margin-top: 0%;
+    margin-left: auto;
+        
+}
+
+.github:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+
+.copyright{
+    margin: 0;
+    text-align: center; 
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Acme', sans-serif;
+}
+
+.audio {
+    margin-left: 80%;
+    margin-top: -2%;
+    
+  }
+
+  @media screen and (max-width:480px){
+
+    body{
+        margin: 0;
+        width: 100%;
+        background-size: cover;
+        font-family: 'Acme', sans-serif;
+        min-height: 125vh;
+        animation: movimiento 40s infinite linear alternate;
+    }
+
+    @keyframes movimiento{
+        from{
+            background-position: top left;
+        } to{
+            background-position: bottom top;
+        }
+    }
+
+    header {
+        background: black;
+        margin: 0px;
+        padding: 50px;
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+        display: inline-block;
+    }
+
+    .boton-jugar{
+        font-family: 'Acme', sans-serif;
+        text-align: center;
+        text-decoration: none;
+        padding: 15px;
+        font-weight: 400;
+        font-size: 25px;
+        color: #ffffff;
+        background-color: #1776e2;
+        border-radius: 6px;
+        border: 3px solid #01030f;
+        margin-bottom: 15px;
+        margin-top: 10%;
+        margin-left: 50%;
+    }
+    .boton-jugar:hover{
+        color: #1883ba;
+        background-color: #ffffff;
+    }
+
+    .audio {
+        margin-left: 0%;
+        height: 0px;
+        margin-top: -40%;
+         
+       
+      }
+    .logo{
+        margin: 0;
+        margin-left: -25px;
+        max-height: 10%;
+      }
+
+    footer{
+       
+        position: relative;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        
+          }
+
+          .rodape {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+
+    .redes {
+
+        max-width: 85%;
+    }
+
+    .linkedin{
+
+        max-width: 9%;
+        margin-left: 50;
+        margin-top: 10%;
+        margin-bottom: 10px;
+    }
+    
+    .github{
+        max-width: 14%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: 10px;
+            
+    }
+        
+    .copyright{
+        margin: 0;
+        text-align: center; 
+        color: #ffffff;
+        font-size: 18px;
+        font-weight: 400;
+        font-family: 'Acme', sans-serif;
+          
+    }
+    
+  }
