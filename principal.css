@@ -1,0 +1,356 @@
+body{
+    margin: 0;
+    background: url(images/ets.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Acme', sans-serif;
+    min-height: 100vh;
+    animation: movimiento 30s infinite linear alternate;
+}
+
+@keyframes movimiento{
+    from{
+        background-position: top right;
+    } to{
+        background-position: bottom top;
+    }
+}
+
+header{
+    background: black;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+   
+}
+.cabecalho {
+    margin: 0;
+}
+
+h2{
+   
+    margin: 0;
+    color: white;
+    font-weight: 500;
+}
+
+main{
+    width: 50%;
+    margin: auto;
+    padding: 0px;
+    background: rgba(43, 39, 39, 0.7);
+    display: flex;
+    gap: 30px;
+}
+
+.logo{
+    margin: -20px;
+    margin-left: 2px;
+    float: left;
+    padding: 0;
+   
+}
+
+.logo:hover{
+    
+}
+
+#imagen{
+    width: 200px;
+}
+
+#palabra_a_adivinar{
+    
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+#resultado{
+    color: white;
+    font-size: 30px;
+
+}
+
+#palabra_a_adivinar span{
+    color: #ffffff;
+    vertical-align: bottom;
+    font-size: 3em;
+    border-bottom: 3px solid red;
+    width: 30px;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-right: 6px;
+    display: inline-block; 
+}
+
+.teclado{
+
+    width: 48%; 
+    margin: 5px;
+    margin-left: 22%; 
+    
+}
+
+#letras{
+    margin: auto;
+    margin-left: 24%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    margin-bottom: 20px;
+   
+}
+
+#letras button{
+    font-family: 'Acme', sans-serif;
+    width: 30px;
+    padding: 6px 0;
+    text-align: center;
+    background:#ffffff;
+    border: 3px solid #1776e2;
+
+}
+
+.boton-obtenerPalabra{
+    font-family: 'Acme', sans-serif;
+    margin-left:49%;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    background-color: #1776e2;
+    border-radius: 6px;
+    border: 2px solid #0f0101;
+    margin-bottom: 10px;
+    
+}
+.boton-obtenerPalabra:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+.boton-volver{
+    font-family: 'Acme', sans-serif;
+    margin-left: 54.5%;
+    text-decoration: none;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    color: #ffffff;
+    background-color: #1776e2;
+    border-radius: 6px;
+    border: 2px solid #01030f;
+    
+}
+
+.boton-volver:hover{
+    color: #1883ba;
+    background-color: #ffffff;
+}
+
+footer{
+    margin: 0%;
+    background: black;
+    padding: 0.5%;
+    bottom: 0;
+    width: 99%;
+    position: absolute;
+
+}
+
+.linkedin{
+
+    max-width: 1.3%;
+    margin-left: 48.8%;
+}
+
+.linkedin:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+
+.github{
+    max-width: 2%;
+    margin-top: 0%;
+    margin-left: auto;
+        
+}
+
+.github:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+
+.copyright{
+    margin: 0;
+    text-align: center; 
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.audio {
+    margin-left: 80%;
+    margin-top: -2%;
+
+}
+
+
+@media screen and (max-width:480px){
+
+    body{
+        margin: 0;
+        width: 100%;
+        background-size: cover;
+        font-family: 'Acme', sans-serif;
+        min-height: 125vh;
+        animation: movimiento 40s infinite linear alternate;
+    }
+
+    @keyframes movimiento{
+        from{
+            background-position: top left;
+        } to{
+            background-position: bottom top;
+        }
+    }
+
+    .logo{
+        margin-left: 5px;
+        margin-top: 5px;
+      }
+
+
+    header {
+        background: black;
+        margin: auto;
+        padding: 0px;
+        width: 100%;
+        text-align: center;   
+    
+    }
+
+    h2{
+        margin: 0px;
+        text-align: center;
+        margin-top: 0px;
+        font-size: 20px;
+        color: white;
+        font-weight: 500;
+        
+    }
+    
+    main{
+        width: 50%;
+        padding: 70px;
+        background: rgba(87, 86, 86, 0.7);
+        display:contents;
+        gap: 30px;
+    
+    }
+    
+    .teclado{ 
+        
+        margin-left: 0px;
+        display: contents;
+
+    }
+
+    #letras{
+      
+      gap: 9px;
+      margin-bottom: 10px;
+      margin-left: 10px;
+    }
+
+    .audio {
+        margin-top: 0px;
+        margin-left: 10px;
+        max-width: 10px;
+        margin-bottom: 5px;
+           
+      }
+
+      .boton-obtenerPalabra{
+        font-family: 'Acme', sans-serif;
+        margin-left: 100px;
+        text-align: center;
+        text-decoration: none;
+        padding: 8px;
+        font-weight: 500;
+        font-size: 18px;
+        color: #ffffff;
+        background-color: #1776e2;
+        border-radius: 6px;
+        border: 2px solid #0f0101;
+        margin-bottom: 10px;
+        
+    }
+    
+    .boton-volver{
+        font-family: 'Acme', sans-serif;
+        margin-left: 140px;
+        text-decoration: none;
+        padding: 5px;
+        font-weight: 500;
+        font-size: 15px;
+        color: #ffffff;
+        background-color: #1776e2;
+        border-radius: 6px;
+        border: 2px solid #01030f;
+        margin-bottom: 10px;
+        
+    }
+
+    footer{
+       
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        
+          }
+
+    .redes {
+        padding: auto;
+      
+    }
+
+    .linkedin{
+
+        max-width: 17px;
+        margin-left: 140px;
+        margin-top: 10%;
+        margin-bottom: 10px;
+    }
+    
+    .github{
+        max-width: 25px;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: 10px;
+            
+    }
+      
+    .copyright{
+        margin: 0;
+        text-align: center; 
+        color: #ffffff;
+        font-size: 10px;
+        font-weight: 400;
+        font-family: 'Acme', sans-serif;
+    
+    }
+    
+  }
