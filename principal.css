@@ -349,50 +349,76 @@ footer{
     }
 
     footer{
-        background-color: #312D2A;
-        display: flex;
-        flex-direction: row;
-       
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0%;
+    background: #312D2A;
+    padding: 0.5%;
+    bottom: 0;
+    width: 99%;
+    position: absolute;
+
+}
+
+.rodape {
+    align-items: center;
+}
+
+.redes {
+    align-items: center;
+    margin-right: 43%;
+    flex-direction: row-reverse;
+}
+
+
+.linkedin{
+
+    max-width: 1rem;
+    margin-left: 48.8%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 25%;
+}
+
+.linkedin:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+
+.github{
+    max-width: 1rem;
+    margin-top: 0%;
+    margin-left: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 25%;
         
-          }
+}
 
-    .redes {
-        padding: auto;
-        align-items: center;
-      
-    }
+.github:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
 
-    .linkedin{
 
-        max-width: 17px;
-        margin-left: 140px;
-        margin-top: 10%;
-        margin-bottom: 10px;
-        border-radius: 25%;
-    }
-    
-    .github{
-        max-width: 25px;
-        margin-top: 5%;
-        margin-left: auto;
-        margin-top: auto;
-        margin-bottom: 10px;
-        border-radius: 25%;
-            
-    }
-      
-    .copyright{
-        margin: 0;
-        text-align: center; 
-        color: #ffffff;
-        font-size: 10px;
-        font-weight: 400;
-      
-    
-    }
-    
-  }
+.copyright{
+    margin: 0;
+    text-align: center; 
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.audio {
+    margin-left: 80%;
+    margin-top: -2%;
+
+}
