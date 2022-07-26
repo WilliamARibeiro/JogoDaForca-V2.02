@@ -121,6 +121,7 @@ footer{
     margin-left: 50%;
     flex-direction: row;
     flex-wrap: wrap;
+    border-radius: 25%;
 }
 
 .linkedin:hover{
@@ -139,6 +140,7 @@ footer{
     margin-left: 50%;
     flex-direction: row;
     flex-wrap: Swrap;
+    border-radius: 25%;
         
 }
 
@@ -258,6 +260,7 @@ footer{
         margin-left: 50;
         margin-top: 10%;
         margin-bottom: 10px;
+        border-radius: 25%;
     }
     
     .github{
@@ -266,6 +269,7 @@ footer{
         margin-left: auto;
         margin-top: auto;
         margin-bottom: 10px;
+        border-radius: 25%;
             
     }
         
