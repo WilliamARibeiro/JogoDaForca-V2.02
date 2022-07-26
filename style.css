@@ -94,7 +94,7 @@ main{
 
 footer{
         display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
     margin: 0%;
     background: #312D2A;
@@ -112,7 +112,7 @@ footer{
 .redes {
     align-items: center;
     margin-right: 43%;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .linkedin{
@@ -139,7 +139,7 @@ footer{
     margin-top: 0%;
     margin-left: 50%;
     flex-direction: row;
-    flex-wrap: Swrap;
+    flex-wrap: wrap;
     border-radius: 25%;
         
 }
