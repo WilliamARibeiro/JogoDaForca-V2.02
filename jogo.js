@@ -3,7 +3,7 @@ let cant_errores = 0; //cuantas veces me equivoqué
 let cant_aciertos = 0; //cuantas letras acerté
 
 
-const palabras = ["ESPACO", "OVNI", "ALIENIGENA", "ESTRELAS", "ABDUZIDO", "TERRAQUIO", "PLANETA", "INVASAO", "TERRA"];
+const palabras = ["ESPACO", "OVNI", "ALIENIGENA", "ESTRELAS", "ABDUZIDO", "TERRAQUIO", "PLANETA", "INVASAO", "TERRA", "ASTRONAUTA"];
 const btn = id('jugar');
 const imagen = id( 'imagen' );
 const btn_letras = document.querySelectorAll( "#letras button" );
@@ -73,7 +73,7 @@ function click_letras(event){
         id('resultado').innerHTML ="Que Pena! A palavra era: " + palabrita;
         game_over( );
     }else if( cant_aciertos == palabrita.length ){
-        id('resultado').innerHTML = "ACERTOOOOU! GANHOU UMA PASSAGEM PRO ESPAÇOOO!";
+        id('resultado').innerHTML = "ACERTOOOU! GANHOU UMA PASSAGEM PRO ESPAÇO!";
         game_over( );
     }
     console.log( "la letra " + letra + " en la palabra " + palabra + " ¿existe?: " + acerto );
