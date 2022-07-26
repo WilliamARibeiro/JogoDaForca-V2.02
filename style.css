@@ -16,7 +16,7 @@ body{
 }
 
 header{
-    background: indianred;
+    background: #312D2A;
     padding: 20px;
     text-align: center;
     margin-bottom: 0px;
@@ -62,7 +62,7 @@ main{
     font-weight: 400;
     font-size: 25px;
     color: #ffffff;
-    background-color: gray;
+    background-color: #161513;
     border-radius: 6px;
     border: 3px solid #01030f;
     margin-bottom: 15px;
@@ -87,7 +87,7 @@ main{
 
 
 .boton-jugar:hover{
-    color: indianred;
+    color: #161513;
     background-color: #ffffff;
 }
 
@@ -97,7 +97,7 @@ footer{
     flex-direction: row-reverse;
     align-items: center;
     margin: 0%;
-    background: indianred;
+    background: #312D2A;
     padding: 0.5%;
     bottom: 0;
     width: 99%;
@@ -186,7 +186,7 @@ footer{
     }
 
     header {
-        background: indianred;
+        background: #312D2A;
         margin: 0px;
         padding: 50px;
         width: 100%;
@@ -204,7 +204,7 @@ footer{
         font-weight: 400;
         font-size: 25px;
         color: #ffffff;
-        background-color: gray;
+        background-color: #161513;
         border-radius: 6px;
         border: 3px solid #01030f;
         margin-bottom: 15px;
@@ -212,7 +212,7 @@ footer{
         margin-left: 50%;
     }
     .boton-jugar:hover{
-        color: indianred;
+        color: #161513;
         background-color: #ffffff;
     }
 
@@ -230,7 +230,7 @@ footer{
       }
 
     footer{
-       background-color: indianred;
+       background-color: #312D2A;
        display: flex;
        flex-direction: row;
         position: relative;
