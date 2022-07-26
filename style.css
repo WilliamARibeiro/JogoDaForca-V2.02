@@ -232,55 +232,78 @@ footer{
       }
 
     footer{
-       background-color: #312D2A;
-       display: flex;
-       flex-direction: row;
-        position: relative;
-        left: 0;
-        bottom: 0;
-        width: 100%;
-        position: static;
+        display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 0%;
+    background: #312D2A;
+    padding: 0.5%;
+    bottom: 0;
+    width: 99%;
+    position: absolute;
+
+}
+
+.rodape {
+    align-items: center;
+}
+
+.redes {
+    align-items: center;
+    margin-right: 43%;
+    flex-direction: row-reverse;
+}
+
+.linkedin{
+    max-height: 1rem;
+    max-width: 1rem;
+    margin-left: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 25%;
+}
+
+.linkedin:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
+
+
+.github{
+    max-height: 1rem;
+    max-width: 1rem;
+    margin-top: 0%;
+    margin-left: 50%;
+    flex-direction: row;
+    flex-wrap: Swrap;
+    border-radius: 25%;
         
-          }
+}
 
-          .rodape {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-          }
+.github:hover{
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5)
+}
 
-    .redes {
 
-        max-width: 85%;
-    }
+.copyright{
+    margin: 0;
+    text-align: center; 
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+}
 
-    .linkedin{
-
-        max-width: 9%;
-        margin-left: 50;
-        margin-top: 10%;
-        margin-bottom: 10px;
-        border-radius: 25%;
-    }
-    
-    .github{
-        max-width: 14%;
-        margin-top: 5%;
-        margin-left: auto;
-        margin-top: auto;
-        margin-bottom: 10px;
-        border-radius: 25%;
-            
-    }
-        
-    .copyright{
-        margin: 0;
-        text-align: center; 
-        color: #ffffff;
-        font-size: 18px;
-        font-weight: 400;
-       
-          
-    }
+.audio {
+    margin-left: 80%;
+    margin-top: -2%;
+     max-width: 5px;
     
   }
+
