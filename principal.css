@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background: url(images/ets.jpg) no-repeat center;
+    background: url(images/ovni.png) no-repeat center;
     background-size: cover;
     min-height: 100vh;
     animation: movimiento 30s infinite linear alternate;
