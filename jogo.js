@@ -3,9 +3,7 @@ let cant_errores = 0; //cuantas veces me equivoqué
 let cant_aciertos = 0; //cuantas letras acerté
 
 
-const palabras = [
- "JOGO", "JOGAR", "FUTEBOL", "LEAO", "TIGRE", "ALEMANHA", "BRASIL", "PERDER", "GANHAR", "AMIGO", "AMIZADE","AVIAO", "BICICLETA", "ESCOLA", "PARQUINHO", "VIOLAO", "PANDEIRO", "JAPAO", "CHINA", "NORUEGA", "TESOURO", "PIRATA","INGLATERRA","DIARIO","AFRICA","RUSSIA","TARTARUGA","GIRAFA","RAPOSA","PAPAGAIO","COELHO","PASSARINHO","COMIDA", "COBRA", "LEOPARDO", "ELEFANTE", "CANADA", "PORTUGAL", "ARGENTINA",  
-];
+const palabras = ["ESPACO", "OVNI", "ALIENIGENA", "ESTRELAS", "ABDUZIDO", "TERRAQUIO", "PLANETA", "INVASAO", "TERRA"];
 const btn = id('jugar');
 const imagen = id( 'imagen' );
 const btn_letras = document.querySelectorAll( "#letras button" );
