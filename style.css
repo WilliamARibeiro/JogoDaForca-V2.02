@@ -2,7 +2,6 @@ body{
     margin: 0;
     background: url(images/ets.jpg) no-repeat center;
     background-size: cover;
-    font-family: 'Acme', sans-serif;
     min-height: 100vh;
     animation: movimiento 20s infinite linear alternate;
 
@@ -17,15 +16,15 @@ body{
 }
 
 header{
-    background: black;
-    padding: 30px;
+    background: indianred;
+    padding: 20px;
     text-align: center;
-    margin-bottom: 50px;
+    margin-bottom: 0px;
 }
 
 h2 {
     text-align: center;
-    margin: 0;
+    margin-right: 10rem;
     color: white;
     font-size: 25px;
     font-weight: 400;
@@ -41,11 +40,14 @@ main{
     text-decoration: none;
 }
 
-.logo{
+.logo img {
     margin: -20px;
     margin-left: 2px;
     float: left;
     padding: 0;
+    max-width: 150px;
+    max-height: 150px;
+
    
 }
 
@@ -53,39 +55,72 @@ main{
 }
 
 .boton-jugar{
-    font-family: 'Acme', sans-serif;
+   
     text-align: center;
     text-decoration: none;
     padding: 15px;
     font-weight: 400;
     font-size: 25px;
     color: #ffffff;
-    background-color: #1776e2;
+    background-color: gray;
     border-radius: 6px;
     border: 3px solid #01030f;
     margin-bottom: 15px;
-    margin-top: 10%;
+    margin-top: 50%;
+    transform: translateY(0px); /* Fazendo o botão flutuar*/
+    animation: float 5s ease-in-out infinite;
 }
+
+
+/*Para o botão fçutuar*/
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-30px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+
 .boton-jugar:hover{
-    color: #1883ba;
+    color: indianred;
     background-color: #ffffff;
 }
 
 
 footer{
+        display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     margin: 0%;
-    background: black;
+    background: indianred;
     padding: 0.5%;
-    position: absolute;
     bottom: 0;
     width: 99%;
-    height: 2.5rem;
+    position: absolute;
+
+}
+
+.rodape {
+    align-items: center;
+}
+
+.redes {
+    align-items: center;
+    margin-right: 43%;
+    flex-direction: row-reverse;
 }
 
 .linkedin{
-
-    max-width: 1.3%;
-    margin-left: 48.5%;
+    max-height: 1rem;
+    max-width: 1rem;
+    margin-left: 50%;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .linkedin:hover{
@@ -98,9 +133,12 @@ footer{
 
 
 .github{
-    max-width: 2%;
+    max-height: 1rem;
+    max-width: 1rem;
     margin-top: 0%;
-    margin-left: auto;
+    margin-left: 50%;
+    flex-direction: row;
+    flex-wrap: Swrap;
         
 }
 
@@ -119,12 +157,12 @@ footer{
     color: #ffffff;
     font-size: 18px;
     font-weight: 400;
-    font-family: 'Acme', sans-serif;
 }
 
 .audio {
     margin-left: 80%;
     margin-top: -2%;
+     max-width: 5px;
     
   }
 
@@ -134,7 +172,7 @@ footer{
         margin: 0;
         width: 100%;
         background-size: cover;
-        font-family: 'Acme', sans-serif;
+        
         min-height: 125vh;
         animation: movimiento 40s infinite linear alternate;
     }
@@ -148,24 +186,25 @@ footer{
     }
 
     header {
-        background: black;
+        background: indianred;
         margin: 0px;
         padding: 50px;
         width: 100%;
         text-align: center;
         margin-bottom: 50px;
         display: inline-block;
+        flex-wrap: nowrap;
     }
 
     .boton-jugar{
-        font-family: 'Acme', sans-serif;
+        
         text-align: center;
         text-decoration: none;
         padding: 15px;
         font-weight: 400;
         font-size: 25px;
         color: #ffffff;
-        background-color: #1776e2;
+        background-color: gray;
         border-radius: 6px;
         border: 3px solid #01030f;
         margin-bottom: 15px;
@@ -173,7 +212,7 @@ footer{
         margin-left: 50%;
     }
     .boton-jugar:hover{
-        color: #1883ba;
+        color: indianred;
         background-color: #ffffff;
     }
 
@@ -191,11 +230,14 @@ footer{
       }
 
     footer{
-       
+       background-color: indianred;
+       display: flex;
+       flex-direction: row;
         position: relative;
         left: 0;
         bottom: 0;
         width: 100%;
+        position: static;
         
           }
 
@@ -233,9 +275,8 @@ footer{
         color: #ffffff;
         font-size: 18px;
         font-weight: 400;
-        font-family: 'Acme', sans-serif;
+       
           
     }
     
   }
-
