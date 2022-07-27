@@ -1,3 +1,6 @@
+
+
+
 body{
     margin: 0;
     background: url(images/ovni.png) no-repeat center;
@@ -133,6 +136,11 @@ main{
 .boton-obtenerPalabra:hover{
     color: #161513;
     background-color: #ffffff;
+    display: inline-block;
+    transform: scale(1.1);
+    fill: whitesmoke;
+    filter: drop-shadow(0 0 3rem #aab2d5);
+
 }
 
 .boton-volver{
@@ -152,7 +160,12 @@ main{
 .boton-volver:hover{
     color: #161513;
     background-color: #ffffff;
+    display: inline-block;
+    transform: scale(1.1);
+    fill: whitesmoke;
+    filter: drop-shadow(0 0 3rem #aab2d5);
 }
+
 
 footer{
     display: flex;
@@ -223,6 +236,14 @@ footer{
     font-weight: 400;
 }
 
+
+.copyright:hover {
+  color: whitesmoke;
+  display: inline-block;
+  fill: whitesmoke;
+  filter: drop-shadow(0 0 1rem #aab2d5);
+}
+
 .audio {
     margin-left: 80%;
     margin-top: -2%;
@@ -237,7 +258,7 @@ footer{
         width: 100%;
         background-size: cover;
         
-        min-height: 125vh;
+        min-height: 100vh;
         animation: movimiento 40s infinite linear alternate;
     }
 
