@@ -3,7 +3,7 @@ let cant_errores = 0; //cuantas veces me equivoqué
 let cant_aciertos = 0; //cuantas letras acerté
 
 
-const palabras = ["ESPACO", "OVNI", "ALIENIGENA", "ESTRELAS", "ABDUZIDO", "TERRAQUIO", "PLANETA", "INVASAO", "TERRA", "ASTRONAUTA"];
+const palabras = ["ESPACO", "OVNI", "ALIEN", "ESTRELAS", "ABDUZIDO", "TERRAQUIO", "PLANETA", "INVASAO", "TERRA", "ASTRONAUTA", "GALAXIA", "MARCIANO", "LUA", "SOL"];
 const btn = id('jugar');
 const imagen = id( 'imagen' );
 const btn_letras = document.querySelectorAll( "#letras button" );
