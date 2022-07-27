@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     background: url(images/ovni.png) no-repeat center;
@@ -39,13 +41,17 @@ h2 {
     padding: 0;
     max-width: 150px;
     max-height: 150px;
+    fill: whitesmoke;
+    transition: all 0.25s;
 
    
 }
 
 .logo img:hover{
-     transform: translateY(0px); /* Fazendo o botão flutuar*/
+    transform: translateY(0px); /* Fazendo o botão flutuar*/
     animation: float-logo 10s  ease-in-out infinite;
+    fill: whitesmoke;
+    filter: drop-shadow(0 0 0.8rem #aab2d5)
 
    
 }
@@ -82,8 +88,21 @@ h2 {
     margin-bottom: 15px;
     margin-top: 50%;
     transform: translateY(0px); /* Fazendo o botão flutuar*/
-    animation: float 10s ease-in-out infinite;
+    animation: float 30s ease-in-out infinite;
+
 }
+
+
+
+.boton-jugar:hover {
+    color: #161513;
+    background-color: #ffffff;
+    display: inline-block;
+    transform: scale(1.1);
+    fill: whitesmoke;
+    filter: drop-shadow(0 0 3rem #aab2d5);
+}
+
 
 
 /*Para o botão fçutuar*/
@@ -92,7 +111,7 @@ h2 {
         transform: translateY(0px);
     }
     50% {
-        transform: translateY(-30px);
+        transform: translateY(-100px);
     }
     100% {
         transform: translateY(0px);
@@ -112,14 +131,11 @@ h2 {
     }
 }
 
-.boton-jugar:hover{
-    color: #161513;
-    background-color: #ffffff;
-}
+
 
 
 footer{
-        display: flex;
+    display: flex;
     flex-direction: row;
     align-items: center;
     margin: 0%;
@@ -187,6 +203,13 @@ footer{
     font-weight: 400;
 }
 
+.copyright:hover {
+  color: gray;
+  display: inline-block;
+  fill: whitesmoke;
+  filter: drop-shadow(0 0 5rem #aab2d5);
+}
+
 
   @media screen and (min-width: 0px) and (max-width:480px){
 
@@ -195,7 +218,7 @@ footer{
         width: 100vw;
         background-size: cover;
         
-        min-height: 150vh;
+        min-height: 100vh;
         animation: movimiento 40s infinite linear alternate;
     }
 
@@ -257,15 +280,16 @@ footer{
       }
 
     footer{
-        display: flex;
-    flex-direction: row-reverse;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    align-self: end;
     margin: 0%;
     background: #312D2A;
     padding: 0.5%;
     bottom: 0;
     width: 99%;
-    position: relative;
 
 }
 
