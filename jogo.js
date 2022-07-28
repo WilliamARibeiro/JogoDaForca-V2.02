@@ -73,7 +73,7 @@ function click_letras(event){
         id('resultado').innerHTML ="Que Pena! A palavra era: " + palabrita;
         game_over( );
     }else if( cant_aciertos == palabrita.length ){
-        id('resultado').innerHTML = "ACERTOOOU! GANHOU UMA PASSAGEM PRO ESPAÇO!";
+        id('resultado').innerHTML = "PARABÉNS! GANHOU UMA PASSAGEM PRO ESPAÇO!";
         game_over( );
     }
     console.log( "la letra " + letra + " en la palabra " + palabra + " ¿existe?: " + acerto );
