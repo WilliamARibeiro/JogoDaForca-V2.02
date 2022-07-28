@@ -9,4 +9,4 @@ Jogo da Forca
 Adivinhe a Palavra Secreta e Salve-se se Puder!
 
 
-<a href="https://williamaribeiro.github.io/JogoDaForca-V2.02/">Jogo da Forca - ONE</a>
+Acesse: <a href="https://williamaribeiro.github.io/JogoDaForca-V2.02/">Jogo da Forca - ONE</a>
