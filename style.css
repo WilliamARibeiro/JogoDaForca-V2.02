@@ -283,7 +283,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     align-self: end;
     margin: 0%;
     background: #312D2A;
@@ -300,7 +300,7 @@ footer{
 .redes {
     align-items: center;
     margin-right: 43%;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .linkedin{
@@ -397,7 +397,7 @@ footer{
 .redes {
     align-items: center;
     margin-right: 43%;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 .linkedin{
