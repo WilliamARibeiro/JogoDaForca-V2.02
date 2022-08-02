@@ -187,7 +187,7 @@ footer{
 .redes {
     align-items: center;
     margin-right: 43%;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 
@@ -389,7 +389,7 @@ footer{
 .redes {
     align-items: center;
     margin-right: 43%;
-    flex-direction: row-reverse;
+    flex-direction: row;
 }
 
 
